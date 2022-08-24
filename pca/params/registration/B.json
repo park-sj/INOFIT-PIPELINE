@@ -1,0 +1,39 @@
+{
+    "MMatrixFile" : "template/matrix/B_M.txt",
+    "SmoothnessMatrixFile" : "template/matrix/B_smoothness.txt",
+    "StiffnessMatrixFile" : "template/matrix/B_stiffness.txt",
+    "RegionVertexMappingFile" : "template/region/B_rvm.txt",
+    "ColoredMeanMeshFile" : "template/mesh/B_cmm.off",
+    
+    "NumberOfTargetFiles" : 10,
+    "TargetFilesDirectory" : "mesh/target",
+    "IsAligned" : true,
+    "FaceDirection" : "-Y",
+    "HeightDirection" : "Z",
+
+    "NumberOfRegions" : 22,
+    "RegionWeights" : [
+        1.0, 1.0, 1.0, 1.0, 1.0,
+        1.0, 1.0, 1.0, 1.0, 1.0,
+        1.0, 1.0, 1.0, 1.0, 1.0,
+        1.0, 1.0, 1.0, 1.0, 1.0,
+        1.0, 1.0
+    ],
+    
+    "NumberOfIterationSets" : 5,
+    "NumberOfIterationsPerIterationSet" : 10,
+    "SmoothnessWeightPerIterationSet" : [
+        1.0, 1.0, 1.0, 1.0, 1.0
+    ],
+    "StiffnessWeightPerIterationSet" : [
+        1.0, 1.0, 1.0, 1.0, 1.0
+    ],
+    "ThresholdDistancePerIterationSet" : [
+        1.0, 1.0, 1.0, 1.0, 1.0
+    ],
+    "ThresholdError" : 0.0,
+
+    "OutputFileDirectory" : "mesh/result",
+    "IntermediateOutput" : false,
+    "RemoveColor" : true
+}

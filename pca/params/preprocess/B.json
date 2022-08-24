@@ -1,0 +1,28 @@
+{
+    "NumberOfSourceFiles" : 88,
+    "SourceFilesDirectory" : "mesh/mesh_set_2/aligned_sep",
+    "IsAligned" : true,
+    "FaceDirection" : "-Y",
+    "HeightDirection" : "Z",
+
+    "NumberOfInitialRegions" : 23,
+    "RegionsToRemove" :[0],
+    "NumberOfRegionsAfterRemoval" : 22,
+    "RegionsToMerge" : [],
+    "NumberOfRegionsAfterMerge" : 22,
+    "AdditionalRegionOverlap" : 2,
+
+    "SmoothnessFactor" : 10.0,
+    "StiffnessFactorPerRegion" : [
+        1.0, 1.0, 1.0, 1.0, 1.0,
+        1.0, 1.0, 1.0, 1.0, 1.0,
+        1.0, 1.0, 1.0, 1.0, 1.0,
+        1.0, 1.0, 1.0, 1.0, 1.0,
+        1.0, 1.0
+    ],
+    "NumberOfPrincipalComponents" : 20,
+
+    "MatrixFileDirectory" : "template/matrix",
+    "RegionFileDirectory" : "template/region",
+    "MeshFileDirectory" : "template/mesh"
+}

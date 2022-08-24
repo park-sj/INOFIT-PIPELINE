@@ -1,0 +1,35 @@
+{
+    "NumberOfSourceFiles" : 25,
+    "SourceFilesDirectory" : "mesh/mesh_set_1/template_registered_sep",
+    "IsAligned" : false,
+    "FaceDirection" : "Z",
+    "HeightDirection" : "Y",
+
+    "NumberOfInitialRegions" : 41,
+    "RegionsToRemove" :[
+        14, 15, 20, 29, 34, 35, 38
+    ],
+    "NumberOfRegionsAfterRemoval" : 34,
+    "RegionsToMerge" : [
+        [3, 11, 12],
+        [19, 30, 31],
+        [4, 5, 10],
+        [21, 23, 28],
+        [1, 2, 6, 8, 9, 13, 17, 18, 24, 26, 27, 32],
+        [0, 7, 16, 22, 25, 39],
+        [33, 36, 40]
+    ],
+    "NumberOfRegionsAfterMerge" : 8,
+    "AdditionalRegionOverlap" : 2,
+
+    "SmoothnessFactor" : 10.0,
+    "StiffnessFactorPerRegion" : [
+        1.0, 1.0, 1.0, 1.0, 1.0,
+        1.0, 1.0, 1.0
+    ],
+    "NumberOfPrincipalComponents" : 20,
+
+    "MatrixFileDirectory" : "template/matrix",
+    "RegionFileDirectory" : "template/region",
+    "MeshFileDirectory" : "template/mesh"
+}

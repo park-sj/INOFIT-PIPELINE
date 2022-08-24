@@ -1,0 +1,26 @@
+{
+    "NumberOfSourceFiles" : 207,
+    "SourceFilesDirectory" : "mesh/mesh_set_3/aligned_color2",
+    "IsAligned" : true,
+    "FaceDirection" : "-Y",
+    "HeightDirection" : "Z",
+
+    "NumberOfInitialRegions" : 15,
+    "RegionsToRemove" :[0],
+    "NumberOfRegionsAfterRemoval" : 14,
+    "RegionsToMerge" : [],
+    "NumberOfRegionsAfterMerge" : 14,
+    "AdditionalRegionOverlap" : 2,
+
+    "SmoothnessFactor" : 10.0,
+    "StiffnessFactorPerRegion" : [
+        1.0, 1.0, 1.0, 1.0, 1.0,
+        1.0, 1.0, 1.0, 1.0, 1.0,
+        1.0, 1.0, 1.0, 1.0
+    ],
+    "NumberOfPrincipalComponents" : 25,
+
+    "MatrixFileDirectory" : "template/matrix",
+    "RegionFileDirectory" : "template/region",
+    "MeshFileDirectory" : "template/mesh"
+}

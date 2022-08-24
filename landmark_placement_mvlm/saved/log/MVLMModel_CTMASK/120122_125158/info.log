@@ -1,0 +1,23 @@
+2022-01-12 12:51:58,525 - test - INFO - Loading checkpoint: saved/trained/model_best.pth
+2022-01-12 12:52:12,483 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,532 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,556 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,580 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,604 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,629 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,654 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,679 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,704 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,729 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,753 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,777 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,802 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,826 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,850 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,875 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,899 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,923 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,947 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,972 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:12,996 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-12 12:52:13,020 - Utils3D - WARNING - Ransac failed - estimating from all lines

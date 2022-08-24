@@ -1,0 +1,5 @@
+2022-01-21 15:51:40,775 - test - INFO - Loading checkpoint: saved/trained/model_best.pth
+2022-01-21 15:51:54,288 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-21 15:51:54,765 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-21 15:51:54,837 - Utils3D - WARNING - Ransac failed - estimating from all lines
+2022-01-21 15:51:54,861 - Utils3D - WARNING - Ransac failed - estimating from all lines

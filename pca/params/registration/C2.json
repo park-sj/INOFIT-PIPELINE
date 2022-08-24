@@ -1,0 +1,37 @@
+{
+    "MMatrixFile" : "template/matrix/C2_M.txt",
+    "SmoothnessMatrixFile" : "template/matrix/C2_smoothness.txt",
+    "StiffnessMatrixFile" : "template/matrix/C2_stiffness.txt",
+    "RegionVertexMappingFile" : "template/region/C2_rvm.txt",
+    "ColoredMeanMeshFile" : "template/mesh/C2_cmm.off",
+    
+    "NumberOfTargetFiles" : 3,
+    "TargetFilesDirectory" : "mesh/target",
+    "IsAligned" : true,
+    "FaceDirection" : "-Y",
+    "HeightDirection" : "Z",
+
+    "NumberOfRegions" : 14,
+    "RegionWeights" : [
+        1.0, 1.0, 1.0, 1.0, 1.0,
+        1.0, 1.0, 1.0, 1.0, 1.0,
+        1.0, 1.0, 1.0, 1.0
+    ],
+    
+    "NumberOfIterationSets" : 5,
+    "NumberOfIterationsPerIterationSet" : 15,
+    "SmoothnessWeightPerIterationSet" : [
+        1.0, 1.0, 1.0, 1.0, 1.0
+    ],
+    "StiffnessWeightPerIterationSet" : [
+        1.0, 1.0, 1.0, 1.0, 1.0
+    ],
+    "ThresholdDistancePerIterationSet" : [
+        1.0, 1.0, 1.0, 1.0, 1.0
+    ],
+    "ThresholdError" : 0.0,
+
+    "OutputFileDirectory" : "mesh/result",
+    "IntermediateOutput" : false,
+    "RemoveColor" : true
+}
